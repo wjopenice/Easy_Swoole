@@ -1,0 +1,38 @@
+{
+  "name": "matyhtf/framework",
+  "description": "The world's first swoole-based framework.",
+  "type": "framework",
+  "keywords": [
+    "library",
+    "websocket",
+    "server",
+    "webserver",
+    "client",
+    "socket",
+    "framework"
+  ],
+  "homepage": "http://www.swoole.com/",
+  "license": "LGPL",
+  "autoload": {
+    "psr-4": {
+      "SPF\\": "src/core"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tianfeng Han",
+      "email": "mikan.tenny@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "filp/whoops": "^2.2",
+    "Symfony/Console": "^4.1",
+    "ext-swoole": ">=4.4",
+    "ext-pdo": "*",
+    "ext-mysqli": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.5.x-dev"
+  }
+}
