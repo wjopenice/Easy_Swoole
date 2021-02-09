@@ -1,0 +1,33 @@
+{
+    "name": "easyswoole/words-match",
+    "type": "library",
+    "description": "An efficient swoole framework",
+    "keywords" : ["swoole", "framework", "async","easyswoole"],
+    "homepage" : "https://www.easyswoole.com/",
+    "license" : "Apache-2.0",
+    "authors": [
+        {
+            "name": "huizhang",
+            "email": "2788828128@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasySwoole\\WordsMatch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasySwoole\\WordsMatch\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "easyswoole/swoole-ide-helper": "^1.0",
+        "easyswoole/phpunit": "^1.0"
+    },
+    "require": {
+        "easyswoole/spl": "^1.3",
+        "ext-mbstring": "*",
+        "easyswoole/component": "^2.2"
+    }
+}
