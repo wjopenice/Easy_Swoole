@@ -1,11 +1,11 @@
 # Easy_Swoole
 Easy_Swoole全家桶
 # 环境要求
-保证 PHP 版本大于等于 7.1
-保证 Swoole 拓展版本大于等于 4.4.23
-需要 pcntl 拓展的任意版本
-使用 Linux / FreeBSD / MacOS 这三类操作系统
-使用 Composer 作为依赖管理工具
+*保证 PHP 版本大于等于 7.1
+*保证 Swoole 拓展版本大于等于 4.4.23
+*需要 pcntl 拓展的任意版本
+*使用 Linux / FreeBSD / MacOS 这三类操作系统
+*使用 Composer 作为依赖管理工具
 
 # 自动加载检查
 打开 composer.json 文件，检查是否有注册了 App 命名空间。
