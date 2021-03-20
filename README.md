@@ -20,10 +20,16 @@ Easy_Swoole全家桶
         }
     }
 }
+
+
 ```
 # 更新自动加载
 ```
 composer dump-autoload
+```
+# easyswoole安装
+```
+php vendor/easyswoole/easyswoole/bin/easyswoole install
 ```
 
 # 启动项目
@@ -36,6 +42,10 @@ php easyswoole server start  或者 php easyswoole server start -d
 php easyswoole server stop
 ```
 
+# 多个swoole项目启动
+```
+php easyswoole start product -d
+```
 
 
 # 配置操作类
